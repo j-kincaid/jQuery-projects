@@ -1,10 +1,12 @@
-/* html {
+ html {
     display: block;
 }
 
-* {
-    box-sizing: border-box;
-    font-family: "Georama", sans-serif;
-    width: 100%;
-    font-weight: lighter;
-  } */
+#main-content {
+    margin: auto;
+    padding: 5%;
+}
+
+#press-logo {
+    max-width: 20px;
+}
