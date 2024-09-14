@@ -7,6 +7,20 @@
     padding: 5%;
 }
 
-#press-logo {
-    max-width: 20px;
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-container {
+    display: flex;
+    padding: 10px;
+}
+
+.shelf {
+    background-color: saddlebrown;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 20px 10px;
+    padding: 20px;
+    font-size: 15px;
 }
