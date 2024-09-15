@@ -6,17 +6,18 @@
     font-size: 12px;
 }
 
-#main-content {
-    margin: auto;
-    padding: 5%;
-}
 h2 {
+    font-size: 1.75em;
     font-weight: lighter;
 }
 
-h2, 
+h2,
+h3, 
 #filter {
     margin-left: 10%;
+}
+h3 {
+    font-size: 1em;
 }
 #filter {
     padding: 10px 40px;
@@ -26,15 +27,16 @@ h2,
     display: flex; 
     flex-wrap: wrap;
     padding: 3px;
+    margin: auto;
 }
 
 .shelf {
     background-color: saddlebrown;  
-    width: 80%;
+    width: 90%;
 }
 button {
     padding: 1.5em 1em;
-    margin: 2em;
+    margin: 4.25%;
 }
 ul#books {
     flex-wrap: wrap;
