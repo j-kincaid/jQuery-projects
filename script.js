@@ -1,7 +1,5 @@
 
-// To use a filter to apply styles to specific items in the ordered list
-
-// These widen the book when you hit the Filter button:
+// Book covers are 600px x 400px
 
 $(function() {
     $("#filter0").click(function() {
@@ -30,5 +28,15 @@ $(function() {
         });
     });
 
-
+    $(function() {
+        $("#slideup").click(function() {
+            $("#cover").slideUp(1000);
+        });
+        $("#slidedown").click(function() {
+            $("#cover").slideDown(200);
+        });
+        $("#toggle").click(function() {
+            $("#cover").slideToggle("slow");
+        });
+    });
 
