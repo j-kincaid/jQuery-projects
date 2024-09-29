@@ -28,5 +28,15 @@ $(function() {
         });
     });
 
-
+    $(function() {
+        $("#slideup").click(function() {
+            $("#cover").slideUp(1000);
+        });
+        $("#slidedown").click(function() {
+            $("#cover").slideDown(200);
+        });
+        $("#toggle").click(function() {
+            $("#cover").slideToggle("slow");
+        });
+    });
 
