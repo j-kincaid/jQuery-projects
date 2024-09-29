@@ -1,3 +1,7 @@
+html {
+    display: block;
+}
+
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
@@ -27,6 +31,7 @@ h3 {
     width: 100%;
     padding: 3px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 #cover {
