@@ -1,53 +1,34 @@
 
-// To use a filter to apply styles to specific items in the ordered list
+$('#fader').hover(function() {
+    $(this).find('img:eq(1)').stop(true,true).fadeIn();
+  }, function() {
+    $(this).find('img:eq(1)').fadeOut();
+  })
 
-// These widen the book when you hit the Filter button:
-
-// $(function(){
-//     $('#book1').mouseenter(function(){
-//       $("li").animate({right: '250px'});
-//     });
-//   });
-
-// $(function(){
-//     $("book1").mouseenter(function(){
-//         $("li").animate({left: '250px'});
-//     });
-// });
-
+// 1st book
 $(function() {
-    $(".filter0").click(function() {
-    $('#books li:first').animate({ left: '10px' }, 1000);
+    $("#filter0").click(function() {
+    $('#fader li:first').animate({ left: '.01em' }, 1000);
     });
 });
 
+// 2nd book
 $(function() {
     $("#filter1").click(function() {
-    $('#books li:eq(1)').animate({ right: '1px' }, 1000);
+    $('#fader li:eq(1)').animate({ left: '.02em' }, 1000);
     });
 });
+
+// 3rd book
 $(function() {
     $("#filter2").click(function() {
-    $('#books li:eq(2)').animate({ left: '-2px' }, 1000);
+    $('#fader li:eq(2)').animate({ left: '.02em' }, 1000);
     });
 });
+
+// 4th book
 $(function() {
-    $("#filter4").click(function() {
-    $('#books li:eq(3)').animate({ left: '300px' }, 1000);
+    $("#filter3").click(function() {
+    $('#fader li:last').animate({ left: '.031em' }, 1000);
     });
 });
-// This one widens the 4th book when you hit the Filter button:
-$(document).ready(function(){
-    $("button").click(function(){
-      $("div").animate({left: '250px'});
-    });
-  });
-
-$(function() {
-    $("#filter5").click(function() {
-    $('#books li:last').animate({right: '1em'});
-    });
-});
-
-
-

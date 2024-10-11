@@ -7,8 +7,8 @@
     font-size: 12px;
 }
 
-h2 {
-    font-size: 1.75em;
+h1 {
+    font-size: 2.5em;
     font-weight: lighter;
 }
 
@@ -25,27 +25,39 @@ h3 {
 }
 
 .flex-container {
-    width: 90%;
+    width: 60%;
     padding: 3px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row-reverse;
+}
+section#controls {
+    margin: 3vw;;
 }
 
 .shelf {
+    float: right;
     background-color: lightblue;  
-    width: 90%;
+    height: 100%;
+    width: 80%;
 }
 
-ul#books {
-    width: 400px;
+#fader {
+    width: 3em;
     height: 600px;
 }
 
+#fader .to {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+
+
 ul li {
     position: absolute;
-    margin: 20px 10px;
+    margin-left: 3em;
     padding: 1em;
     height: 30em;
     width: 5em;
