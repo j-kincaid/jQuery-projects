@@ -1,34 +1,39 @@
 
-$('#fader').hover(function() {
-    $(this).find('img:eq(1)').stop(true,true).fadeIn();
-  }, function() {
-    $(this).find('img:eq(1)').fadeOut();
-  })
+// Change width of shelf
+$(document).ready(function(){
+  $("#start").click(function(){
+    $("div").animate({width: 3000}, 3000);
+  });
+  $("#stop").click(function(){
+    $("div").stop();
+  });
+});
 
-// 1st book
+
+// 1st book January Jinx
 $(function() {
     $("#filter0").click(function() {
-    $('#fader li:first').animate({ left: '.01em' }, 1000);
+    $('#series li:first').animate({ width: '300' }, 1000);
     });
 });
 
-// 2nd book
+// 2nd book Fatal February
 $(function() {
     $("#filter1").click(function() {
-    $('#fader li:eq(1)').animate({ left: '.02em' }, 1000);
+    $('#series li:eq(1)').animate({ width: '100' }, 1000);
     });
 });
 
-// 3rd book
+// 3rd book Mischief in March
 $(function() {
-    $("#filter2").click(function() {
-    $('#fader li:eq(2)').animate({ left: '.02em' }, 1000);
-    });
+  $("#filter2").click(function() {
+  $('#series li:eq(2)').animate({ left: '3em' }, 1000);
+  });
 });
 
-// 4th book
+// 4th book DSA
 $(function() {
     $("#filter3").click(function() {
-    $('#fader li:last').animate({ left: '.031em' }, 1000);
+    $('#series li:last').animate({ left: '4em' }, 1000);
     });
 });

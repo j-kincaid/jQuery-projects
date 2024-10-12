@@ -54,13 +54,12 @@ section#controls {
     left: 0;
 }
 
-
 ul li {
     position: absolute;
-    margin-left: 3em;
+    /* margin-left: 3em; */
     padding: 1em;
-    height: 30em;
-    width: 5em;
+    height: 41em;
+    width: 30em;
     font-size: 14px;
     list-style: none;
 }
