@@ -1,10 +1,12 @@
 
 
+
 // Try Event Delegation
 // $('#controls button').click(function(event) {
 //   event.preventDefault();
 //   $('#series li').animate({ width: '200' }, 1000);
-// });
+
+// Book covers are 600px x 400px
 
 
 // $(function() {
@@ -48,3 +50,18 @@ $(function() {
       width: '40px' }, 1000);
     });
 });
+
+
+    $(function() {
+        $("#slideup").click(function() {
+            $("#cover").slideUp(1000);
+        });
+        $("#slidedown").click(function() {
+            $("#cover").slideDown(200);
+        });
+        $("#toggle").click(function() {
+            $("#cover").slideToggle("slow");
+        });
+    });
+
+
