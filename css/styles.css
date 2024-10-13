@@ -7,8 +7,8 @@ html {
     font-size: 12px;
 }
 
-h2 {
-    font-size: 1.75em;
+h1 {
+    font-size: 2.5em;
     font-weight: lighter;
 }
 
@@ -28,6 +28,11 @@ h3 {
 
 .flex-container {
     display: flex;
+
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center space-between;
+
     width: 90%;
     padding: 3px;
     margin: auto;
@@ -44,14 +49,27 @@ h3 {
     overflow: auto;
     height: 100%;
     width: 100%;
-    margin: 0;
+    margin: 0;450
+}
+.flex-container > ul {
+    margin: 100px;
+    text-align: center;
+    font-size: 30px;
 }
 
-.shelf {
-    background-color: lightblue;  
-    width: 90%;
+
+img {
+    height: 450px;
+    width: 300px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+section#controls {
+    margin: 3vw;
+}
 .navigation {
     padding-top: 2em;
     top: 0;
@@ -105,3 +123,4 @@ ul li {
     font-size: 14px;
     list-style: none;
 }
+
