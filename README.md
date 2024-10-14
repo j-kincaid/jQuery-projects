@@ -12,4 +12,6 @@
 
 #### 3. Create a GitHub account and make a repo connected to GitHub pages, index.html page.
 
+##### This should work! 🤞
+
 #### 4. Submit the URL to your GitHub Pages website, along with a link to your repo.
