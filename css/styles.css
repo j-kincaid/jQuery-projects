@@ -7,6 +7,17 @@
     font-size: 12px;
 }
 
+nav#navigation {
+    color: white;
+    background-color: black;
+    height: 8em;
+    width: 8em;
+    float: right ;
+}
+ul {
+    padding: 1em;
+}
+
 h1 {
     font-size: 2.5em;
     font-weight: lighter;
@@ -19,11 +30,12 @@ div.container {
     position: relative;
     margin: 5%;
 }
+
 button.slick-next.slick-arrow::before,
-button.slick-prev.slick-arrow::before
-{
+button.slick-prev.slick-arrow::before {
     color: black;
 }
+
 h2,
 h3, 
 #filter {
@@ -47,4 +59,9 @@ ul {
 
 section#controls {
     margin: 3vw;
+}
+
+footer {
+    margin: auto;
+
 }
