@@ -1,19 +1,3 @@
-
-// Navigation
-
-// $(document).ready(function(){
-//   $('#accordion').accordion({header: 'h3'});
-//   $('#accordion').accordion('activate', 2);
-// });
-
-
-$(document).ready(function(){
-  $('.dropdown-submenu a.test').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
-  });
-});
 // slick carousel plugin
 
 $(document).ready(function(){
@@ -53,4 +37,11 @@ $(document).ready(function(){
   ]
 });
 		
+});
+
+// Navigation
+
+$(document).ready(function(){
+  $('#accordion').accordion({header: 'h3'});
+  $('#accordion').accordion('activate', 2);
 });
