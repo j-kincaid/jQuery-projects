@@ -15,23 +15,34 @@
 
 <body>
    <nav id="navigation">
-      <ul>
-         <li>About</li>
-         <li>Contact</li>
-         <li>Novels
-            <ul>
-               <li>January Jinx</li>
-               <li>Fatal February</li>
-               <li>Miscief in March</li>
-               <li>Apart In April</li>
-               <li>Death In Shining Armor</li>
+      <ul class="dropdown-menu">
+         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Juliet Kincaid</button>
+         <span class="caret"></span></button>
+         <li><a tabindex="-1" href="#">About</a></li>
+         <li><a tabindex="-1" href="#">Contact</a></li>
+         <li class="dropdown-submenu">
+            <a class="test" tabindex="-1" href="#">Novels <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li><a tabindex="-1" href="#">January Jinx</a></li>
+               <li><a tabindex="-1" href="#">Fatal February</a></li>
+               <li><a tabindex="-1" href="#">Mischief in March</a></li>
+               <li><a tabindex="-1" href="#">Apart In April</a></li>
+               <li><a tabindex="-1" href="#">Death In Shining Armor</a></li>
             </ul>
          </li>
+         <li class="dropdown-submenu">
+            <a class="test" tabindex="-1" href="#">Story Collections <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li href="#">Cinderella, P. I. Around The World</li>
+               <li href="#">Cinderella, P. I., First Case To Last</li>
+            </ul>
+         </li>
+         <li>Novel Basics</li>
          <li>Blog</li>
       </ul>
    </nav>
-   <div class="container">
-   <h1>Juliet Kincaid</h1>
+   <div class="carousel">
+   <!-- <h1>Juliet Kincaid</h1> -->
     <div class="responsive"> 
       <div>
          <img src="./images/Jan.Jinx_.cover.jpg" alt="cover of January Jinx novel by Juliet Kincaid">
