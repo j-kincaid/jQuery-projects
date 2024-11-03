@@ -11,7 +11,7 @@
 }
 
 
-#navigation {
+nav#navigation {
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -25,12 +25,22 @@
     opacity: 40%;  
 }
 
-.card {
-    background-color: lightgray;
-    color: black;
+ul {
+    list-style-type: none;
+
+}
+.card, 
+p.heading {
+    color: white;
+    padding: 2.5em;
+    cursor: pointer;
+}
+p.info
+ {
+    background-color: light;
+    color: white;
     padding: 15px 30px;
     border-radius: 1px;
-    cursor: pointer;
     margin-bottom: 1px;
 }
 
@@ -39,14 +49,8 @@
     margin: 0;
 }
 
-.cord-body {
+.card-body {
     display: none;
-}
-
-.toggle button {
-    background-color: #ccc;
-    border: none;
-    font-size: 1.5rem;
 }
 
 nav, header, footer {
@@ -57,12 +61,9 @@ h1 {
     font-size: 1.25em;
     font-weight: lighter;
 }
-h1, h2 {
-    margin-left: 10%;
-}
+
 h2 {
     font-size: 1.0em;
-    font-weight: lighter;
 }
 
 h3 {
@@ -73,25 +74,34 @@ p {
     font-size: 0.12em;
 }
 
-ul {
+div.heading,
+ul#accordion {
     margin: 0;
-    padding: 1em;
+    padding: 0.5em;
+}
+
+ul.card-body {
+
     list-style-type: none;
 }
 
-li {
-    font-size: 0.65em;
+li.card {
+    color: white;
+    font-size: 0.6em;
 }
 
+li [
+    font-size: 0.5em;
+]
 
-li a,
 a:visited {
-    color: lightgray;
+    color: whitesmoke;
 }
 
 a {
 	text-decoration: none;
 }
+
 div.carousel {
     position: relative;
     margin: 5%;

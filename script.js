@@ -43,28 +43,36 @@ $(document).ready(function(){
 
 
 
-
-// $(document).ready(function(){
-//   $('#navigation ul > li ul')
-//     .click(function(event){
-//       event.stopPropagation();
-//     })
-//     .filter(':not(:first)')
-//     .hide();
+$(document).ready(function(){
+  $('#navigation ul > li ul')
+    .click(function(event){
+      event.stopPropagation();
+    })
+    .filter(':not(:first)')
+    .hide();
     
-//   $('#navigation ul > li').click(function(){
-//     var selfClick = $(this).find('ul:first').is(':visible');
-//     if(!selfClick) {
-//       $(this)
-//         .parent()
-//         .find('> li ul:visible')
-//         .slideToggle();
-//     }
+  $('#navigation ul > li').click(function(){
+    var selfClick = $(this).find('ul:first').is(':visible');
+    if(!selfClick) {
+      $(this)
+        .parent()
+        .find('> li ul:visible')
+        .slideToggle();
+    }
     
-//     $(this)
-//       .find('ul:first')
-//       .stop(true, true)
-//       .slideToggle();
-//   });
-// });
+    $(this)
+      .find('ul:first')
+      .stop(true, true)
+      .slideToggle();
+  });
+});
 
+// $('.card').click(function() {
+//   let index = $(this).index()
+//   console.log(index)
+//   let currCard = $('.card').eq(index)
+//   let currBody = $(`.card:eq(${index}) .card-body`)
+
+
+
+// })
