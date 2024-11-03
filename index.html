@@ -14,16 +14,45 @@
 <!-- My plan for this project is to fulfill the requirements of assignments while eventually developing more features of a professional indie author's site. -->
 
 <body>
-   <nav id="navigation">
-      <ul>
-         <li>About</li>
-         <li>Contact</li>
-         <li>Store</li>
-         <li>Blog</li>
-      </ul>
-   </nav>
-   <div class="container">
-   <h1>Juliet Kincaid</h1>
+   <div id="wrapper">
+      <nav id="navigation"><div class="heading">
+         <h1 class="heading">Juliet Kincaid</h1>
+            <h3 class="info">
+               Writer • AzureSky Press, LLC
+            </h3>
+         </div>
+            <ul id="accordion">
+               <li class="card">
+                  <p class="card-title">Calendar Mystery Novels</p>
+                  <ul class="card-body">
+                     <li><a  href="#">January Jinx</a></li>
+                     <li><a  href="#">Fatal February</a></li>
+                     <li><a  href="#">Mischief in March</a></li>
+                     <li><a  href="#">Apart In April</a></li>
+                     <li><a  href="#">Death In Shining Armor</a></li>
+                  </ul>
+               </li>
+               <li class="card">
+                  <p class="card-title">Story Collections</p>
+                  <ul class="card-body">
+                     <li><a href="#">Cinderella, P. I. Around The World</a></li>
+                        <li><a href="#">Cinderella, P. I., First Case To Last</a></li>
+                  </ul>
+               </li>
+               <li class="card">
+                  <p class="card-title">More</p>
+                  <ul class="card-body">
+                     <li><a href="#">Novel Basics</a></li>
+                     <li><a href="#">Blog</a></li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">Contact</a></li>
+                  </ul>
+               </li>
+            </ul>
+      </nav>
+   </div>
+   <div class="carousel">
+   <!-- <h1>Juliet Kincaid</h1> -->
     <div class="responsive"> 
       <div>
          <img src="./images/Jan.Jinx_.cover.jpg" alt="cover of January Jinx novel by Juliet Kincaid">
@@ -35,14 +64,27 @@
             <img src="./images/March_cover.jpg" alt="cover of Mischief in March novel by Juliet Kincaid">
          </div>
          <div>
-            <img src="./images/DSA-cover.jpg" alt="cover of Death in Shining Armor novel by Juliet Kincaid">
+            <img src="./images/April_cover.jpg" alt="cover of Apart In April novel by Juliet Kincaid">
+         </div>
+         <div>
+            <img src="./images/Tales.jpeg" alt="cover of Cinderella, P.I., And Other Fairy Tale Mysteries by Juliet Kincaid">
+         </div>
+         <div>
+            <img src="./images/World.jpg" alt="cover of Cinderella, P.I., Around The World by Juliet Kincaid">
+         </div>
+         <div>
+            <img src="./images/First2Last.jpg" alt="Cinderella, P.I. First Case to Last by Juliet Kincaid">
+         </div>
+         <div>
+            <img src="./images/DSA-cover.jpg" alt="Death In Shining Armor novel by Juliet Kincaid">
          </div>
       </div> 
    </div>
    <footer>
       <p><small>&copy;2024 Juliet Kincaid</small></p> 
    </footer>
-   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+</div>   
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
    <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
