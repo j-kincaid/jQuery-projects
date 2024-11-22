@@ -1,132 +1,73 @@
  html {
     display: block;
-    background: grey;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
 }
-
 
 nav#navigation {
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
-    float: right;
-    max-height: 40em;
-    max-width: 18em;
-    color: white;
-    margin: 0 auto;
     background-color: black;
-    opacity: 40%;  
+    /* height: 8em;
+    width: 8em; */
+    float: right ;
 }
-
 ul {
+    padding: 5px; 
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
     list-style-type: none;
-
-}
-.card, 
-p.heading {
-    color: white;
-    padding: 2.5em;
-    cursor: pointer;
-}
-p.info
- {
-    background-color: light;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 1px;
-    margin-bottom: 1px;
-}
-
-.card-title {
-    font-size: 22px;
-    margin: 0;
-}
-
-.card-body {
-    display: none;
-}
-
-nav, header, footer {
-	display: flex;
 }
 h1 {
-    font-size: 1.25em;
+    font-size: 2.5em;
     font-weight: lighter;
 }
 
-h2 {
-    font-size: 1.0em;
+body {
+    background-color: gray;
 }
-
-h3 {
-    font-size: .85em;
-}
-
-p {
-    font-size: 0.12em;
-}
-
-div.heading,
-ul#accordion {
-    margin: 0;
-    padding: 0.5em;
-}
-
-ul.card-body {
-
-    list-style-type: none;
-}
-
-li.card {
-    color: white;
-    font-size: 0.6em;
-}
-
-li [
-    font-size: 0.5em;
-]
-
-a:visited {
-    color: whitesmoke;
-}
-
-a {
-	text-decoration: none;
-}
-
-div.carousel {
+div.container {
     position: relative;
     margin: 5%;
 }
 
 button.slick-next.slick-arrow::before,
 button.slick-prev.slick-arrow::before {
-    color: lightgray;
+    color: black;
+}
+
+h2,
+h3, 
+#filter {
+    margin-left: 10%;
+}
+h3 {
+    font-size: 1em;
+}
+#filter {
+    padding: 10px 40px;
 }
 
 img {
     max-width: 80%;
-    /* height: 300px;
-    width: 200px; */
-}
-ul {
-    list-style-type: none;
 }
 
+.dot {
+    font-size: 1.25em;
+    color:rgb(238, 244, 238);
+    padding: 8px;
+    margin: 4px;
+    background: gray;
+    border-radius: 2px;
+
+}
 section#controls {
     margin: 3vw;
 }
 
 footer {
-    align-items: center;
+    margin: auto;
+
 }
-
-/* This project really needs media queries! Please add them ASAP! */
-
