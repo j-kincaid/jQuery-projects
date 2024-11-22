@@ -8,16 +8,18 @@
 }
 
 nav#navigation {
-    color: white;
     background-color: black;
-    height: 8em;
-    width: 8em;
+    /* height: 8em;
+    width: 8em; */
     float: right ;
 }
 ul {
-    padding: 1em;
+    padding: 5px; 
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+    list-style-type: none;
 }
-
 h1 {
     font-size: 2.5em;
     font-weight: lighter;
@@ -50,13 +52,17 @@ h3 {
 
 img {
     max-width: 80%;
-    /* height: 300px;
-    width: 200px; */
-}
-ul {
-    list-style-type: none;
 }
 
+.dot {
+    font-size: 1.25em;
+    color:rgb(238, 244, 238);
+    padding: 8px;
+    margin: 4px;
+    background: gray;
+    border-radius: 2px;
+
+}
 section#controls {
     margin: 3vw;
 }
