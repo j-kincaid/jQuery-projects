@@ -1,4 +1,4 @@
-### This site is live at https://j-kincaid.github.io/jQuery-projects/
+### This site is live [here](https://j-kincaid.github.io/jQuery-projects/)
 
 ### Projects made in jQuery WEB 238-300
 
